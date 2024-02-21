@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+
+.restaurants {
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-card {
+  margin: 20px;
+  width: 250px;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.p {
+  margin: 0;
+
+}
+
+h2 {
+  font-size: 32px;
+}
+
+#new-button {
+  color: white;
+}
+
+.btn a,
+.btn a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  margin: 20px;
+}
+
+/* body {
+  color: navy;
+} */
